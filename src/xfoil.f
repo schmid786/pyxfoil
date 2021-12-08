@@ -144,6 +144,7 @@ C
 C===============================================
       SUBROUTINE X_LOAD(FILNAM, IEL)
 C       Read buffer airfoil from coordinate file
+       USE XMOD
        CHARACTER*(*), INTENT(IN   ) :: FILNAM
        INTEGER, INTENT(IN   ) :: IEL
 C
